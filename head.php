@@ -72,8 +72,9 @@ if($buys_logined){
 
 <LI >
  <A href="cartlist.php" ><SPAN class=nav-label>我的购物车</SPAN></A></LI>
-	
-  <A href="orderslist.php" ><SPAN class=nav-label>我的订单</SPAN></A></LI>
+    <A href="my_info.php"><SPAN class=nav-label>我的信息</SPAN></A></LI>
+
+    <A href="orderslist.php" ><SPAN class=nav-label>我的订单</SPAN></A></LI>
  
  <LI>
   <A href="loginout.php"  ><SPAN class=nav-label>退出登录</SPAN></A></LI>
