@@ -6,9 +6,9 @@ function mysqlInit()
     $url = '127.0.0.1:3306';
     
     $username ='root';
-    
-//    $password = 'root';
-    $password = '123456';
+
+    $password = 'root';
+//    $password = '123456';
 
     $dbName ='shopping_db';
     

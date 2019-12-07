@@ -146,7 +146,13 @@ if (!empty($_REQUEST['submit'])) {
                                         验证码:
                                     </td>
                                     <td>
-                                        <input type="text" placeholder="验证码" name="verifycode" class="captcha"><br><br>
+                                        <input type="text" placeholder="验证码" name="verifycode" class="captcha"
+                                               style="width: 300px;height: 25px;"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
                                         <img id="captcha_img" src="lib/captcha.php?r=<?php echo rand(); ?>" alt="验证码">
                                         <label><a href="javascript:void(0)" rel="external nofollow"
                                                   onclick="document.getElementById('captcha_img').src='lib/captcha.php?r='+Math.random()">换一个</a>
