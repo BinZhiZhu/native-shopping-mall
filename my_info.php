@@ -13,7 +13,6 @@ if (!isset($_SESSION['buys']) || empty($_SESSION['buys'])) {
 
 $userid = $_SESSION['buys'][0]['Id'];
 
-//$sql = " select c.*,g.pic from t_cart AS c LEFT JOIN  t_goods AS g ON c.goodsid = g.id where userid=$userid ";
 $sql = " SELECT * FROM t_user WHERE id=$userid";
 
 $user = exeRead($sql);
@@ -21,8 +20,31 @@ $user = exeRead($sql);
 //兼容格式
 $user = $user[0];
 
-?>
 
+//更新数据
+if (!empty($_REQUEST['submit'])) {
+
+    $name = trim($_REQUEST['name']);
+    $tel = trim($_REQUEST['tel']);
+    $address = trim($_REQUEST['address']);
+
+    $sql = " UPDATE t_user SET name='$name' ,tel='$tel',address='$address' WHERE id=$userid";
+
+//    print_r($sql);exit;
+
+    $rs = exeWrite($sql);
+
+    if ($rs) {
+        echo "<script language=javascript>alert('保存成功');window.location.href='my_info.php';</script>";
+        exit;
+    } else {
+        echo "<script language=javascript>alert('保存失败');window.location.href='my_info.php';</script>";
+        exit;
+    }
+
+}
+
+?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <!-- saved from url=(0034)http://tz.meituan.com/dianying/all -->
@@ -40,45 +62,20 @@ $user = $user[0];
     <META name=msapplication-window content=width=device-width;height=device-height>
 
     <META name=GENERATOR content="MSHTML 8.00.7601.18210">
-
-
-    <script language="javascript" type="text/javascript">
-
-        function changenum(id) {
-            var num = document.getElementById(id + "_num").value;
-
-            var reg1 = /^\d+$/;
-            if (num.match(reg1) == null) {
-                alert("购买数量必须为正整数");
-                return false;
-            }
-            if (num == 0) {
-                alert("购买数量必须大于0的正整数");
-                return false;
-            }
-            var now = new Date();
-            var t = now.getTime() + '';
-            window.location.href = "cartnumberupdate.php?Id=" + id + "&shuliang=" + num + "&t=" + t;
-
-
+    <script type="text/javascript" language="javascript">
+        //重置表单咯
+        function onResetForm() {
+            console.log('onResetForm')
+            document.getElementById('nameid').value = '';
+            document.getElementById('telid').value = '';
+            document.getElementById('addressid').value = '';
         }
-
     </script>
-
 </HEAD>
 
 <style>
-    .my-info-list{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .option-switch{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 </style>
+
 <BODY id=index>
 
 <DIV id=doc>
@@ -100,12 +97,54 @@ $user = $user[0];
                 </DIV>
 
                 <DIV class=recommend-movies__slides-w>
-                    <div class="my-info-list">
-                        <div class="">昵称：<?php echo $user['name']?></div>
-                        <div class="">联系电话：<?php echo $user['tel']?></div>
-                        <div class="">地址：<?php echo $user['address']?></div>
-                        <div class="">注册时间：<?php echo $user['ctime']?></div>
-                    </div>
+                    <form action="my_info.php?submit=1" method="post" id="info-form">
+                        <table align="center" border="1" cellpadding="5" cellspacing="3" width="100%">
+                            <tr>
+                                <td>
+                                    姓名:
+                                </td>
+                                <td>
+                                    <input type="text" name="name" style="width: 300px;height: 25px;" id="nameid"
+                                           value="<?php echo $user['name'] ?>"/>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    手机号码:
+                                </td>
+                                <td>
+                                    <input type="text" name="tel" style="width: 300px;height: 25px;" id="telid"
+                                           value="<?php echo $user['tel'] ?>"/>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    收货地址:
+                                </td>
+                                <td>
+                                    <input type="text" name="address" style="width: 300px;height: 25px;" id="addressid"
+                                           value="<?php echo $user['address'] ?>"/>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+
+                                <td>
+                                    操作
+                                </td>
+                                <td>
+                                    <input type="submit" id="submitid" value="&nbsp;保&nbsp;&nbsp;存&nbsp;"
+                                           style="width: 100px;height: 30px;"/>
+                                </td>
+                            </tr>
+
+                        </table>
+
+                    </form>
                 </DIV>
             </DIV>
 

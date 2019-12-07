@@ -52,6 +52,10 @@ function exeWrite($sql){
 
     $result = mysqli_query($conn,$sql);
 
+    if (!$result) {
+        throw new Exception("错误描述: " . mysqli_error($conn));
+    }
+
     mysqli_close($conn);
 
     return $result;
