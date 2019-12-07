@@ -61,6 +61,8 @@ if(!$buys_logined){
 	
   <LI><A href="login.php"  ><SPAN class=nav-label>用户登录</SPAN></A></LI>
 
+    <LI><A href="merch_register.php"><SPAN class=nav-label>商家注册</SPAN></A></LI>
+
 <?php 
 }
 ?>
