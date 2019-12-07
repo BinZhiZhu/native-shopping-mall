@@ -1,0 +1,855 @@
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+PRE {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+CODE {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LEGEND {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+INPUT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TEXTAREA {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BLOCKQUOTE {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TH {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TD {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TABLE {
+	BORDER-SPACING: 0; BORDER-COLLAPSE: collapse
+}
+FIELDSET {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+IMG {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+ADDRESS {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+CAPTION {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+CITE {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+CODE {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+DFN {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+EM {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+VAR {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+LI {
+	LIST-STYLE-TYPE: none
+}
+CAPTION {
+	TEXT-ALIGN: left
+}
+TH {
+	TEXT-ALIGN: left
+}
+H1 {
+	FONT-SIZE: 100%
+}
+H2 {
+	FONT-SIZE: 100%
+}
+H3 {
+	FONT-SIZE: 100%
+}
+H4 {
+	FONT-SIZE: 100%
+}
+H5 {
+	FONT-SIZE: 100%
+}
+H6 {
+	FONT-SIZE: 100%
+}
+Q:before {
+	CONTENT: ''
+}
+Q:after {
+	CONTENT: ''
+}
+ABBR {
+	BORDER-RIGHT-WIDTH: 0px; FONT-VARIANT: normal; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+ACRONYM {
+	BORDER-RIGHT-WIDTH: 0px; FONT-VARIANT: normal; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+SUP {
+	VERTICAL-ALIGN: text-top
+}
+SUB {
+	VERTICAL-ALIGN: text-bottom
+}
+INPUT {
+	FONT-FAMILY: inherit
+}
+TEXTAREA {
+	FONT-FAMILY: inherit
+}
+SELECT {
+	FONT-FAMILY: inherit
+}
+INPUT {
+	FONT-SIZE: 100%
+}
+TEXTAREA {
+	FONT-SIZE: 100%
+}
+SELECT {
+	FONT-SIZE: 100%
+}
+LEGEND {
+	COLOR: #000
+}
+.btn {
+	BORDER-BOTTOM: #23a79c 1px solid; TEXT-ALIGN: center; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff25b0a4',endColorstr='#ff2eb8ac',GradientType=1); BORDER-LEFT: #23a79c 1px solid; PADDING-BOTTOM: 2px; LINE-HEIGHT: 1.5; BACKGROUND-COLOR: #2eb8ac; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; ZOOM: 1; DISPLAY: inline; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: 'Microsoft Yahei',Arial; LETTER-SPACING: 0.1em; COLOR: #fff; FONT-SIZE: 14px; BORDER-TOP: #23a79c 1px solid; CURSOR: pointer; BORDER-RIGHT: #23a79c 1px solid; TEXT-DECORATION: none; PADDING-TOP: 4px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -webkit-user-select: none; -moz-user-select: none; user-select: none; -webkit-box-shadow: inset 0 1px 0 #2ac2b5; -moz-box-shadow: inset 0 1px 0 #2ac2b5; box-shadow: inset 0 1px 0 #2ac2b5
+}
+.btn:hover {
+	TEXT-DECORATION: none
+}
+.btn:focus {
+	TEXT-DECORATION: none
+}
+.btn:active {
+	TEXT-DECORATION: none
+}
+.btn:hover {
+	BORDER-BOTTOM-COLOR: #148d83; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2aab9f',endColorstr='#ff22a397',GradientType=1); BACKGROUND-COLOR: #22a397; BORDER-TOP-COLOR: #148d83; BACKGROUND-REPEAT: repeat-x; COLOR: #fff; BORDER-RIGHT-COLOR: #148d83; BORDER-LEFT-COLOR: #148d83; -webkit-box-shadow: inset 0 1px 0 #38beb1; -moz-box-shadow: inset 0 1px 0 #38beb1; box-shadow: inset 0 1px 0 #38beb1
+}
+.btn:focus {
+	BORDER-BOTTOM-COLOR: #148d83; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2aab9f',endColorstr='#ff22a397',GradientType=1); BACKGROUND-COLOR: #22a397; BORDER-TOP-COLOR: #148d83; BACKGROUND-REPEAT: repeat-x; COLOR: #fff; BORDER-RIGHT-COLOR: #148d83; BORDER-LEFT-COLOR: #148d83; -webkit-box-shadow: inset 0 1px 0 #38beb1; -moz-box-shadow: inset 0 1px 0 #38beb1; box-shadow: inset 0 1px 0 #38beb1
+}
+.btn:active {
+	BORDER-BOTTOM-COLOR: #148d83; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2aab9f',endColorstr='#ff22a397',GradientType=1); BACKGROUND-COLOR: #22a397; BORDER-TOP-COLOR: #148d83; BACKGROUND-REPEAT: repeat-x; COLOR: #fff; BORDER-RIGHT-COLOR: #148d83; BORDER-LEFT-COLOR: #148d83; -webkit-box-shadow: inset 0 1px 0 #38beb1; -moz-box-shadow: inset 0 1px 0 #38beb1; box-shadow: inset 0 1px 0 #38beb1
+}
+.btn:active {
+	-webkit-box-shadow: inset 0 1px 3px #187; -moz-box-shadow: inset 0 1px 3px #187; box-shadow: inset 0 1px 3px #187
+}
+.btn-normal {
+	BORDER-BOTTOM: #dedede 1px solid; TEXT-ALIGN: center; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5',endColorstr='#ffefefef',GradientType=1); BORDER-LEFT: #dedede 1px solid; PADDING-BOTTOM: 2px; LINE-HEIGHT: 1.5; BACKGROUND-COLOR: #efefef; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; ZOOM: 1; DISPLAY: inline; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: 'Microsoft Yahei',Arial; LETTER-SPACING: 0.1em; COLOR: #000; FONT-SIZE: 14px; BORDER-TOP: #dedede 1px solid; CURSOR: pointer; BORDER-RIGHT: #dedede 1px solid; TEXT-DECORATION: none; PADDING-TOP: 4px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -webkit-user-select: none; -moz-user-select: none; user-select: none; -webkit-box-shadow: inset 0 1px 0 #fcfcfc; -moz-box-shadow: inset 0 1px 0 #fcfcfc; box-shadow: inset 0 1px 0 #fcfcfc
+}
+.btn-normal:hover {
+	TEXT-DECORATION: none
+}
+.btn-normal:focus {
+	TEXT-DECORATION: none
+}
+.btn-normal:active {
+	TEXT-DECORATION: none
+}
+.btn-normal:hover {
+	TEXT-DECORATION: none
+}
+.btn-normal:focus {
+	TEXT-DECORATION: none
+}
+.btn-normal:active {
+	TEXT-DECORATION: none
+}
+.btn-normal:hover {
+	BORDER-BOTTOM-COLOR: #148d83; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2aab9f',endColorstr='#ff22a397',GradientType=1); BACKGROUND-COLOR: #22a397; BORDER-TOP-COLOR: #148d83; BACKGROUND-REPEAT: repeat-x; COLOR: #fff; BORDER-RIGHT-COLOR: #148d83; BORDER-LEFT-COLOR: #148d83; -webkit-box-shadow: inset 0 1px 0 #38beb1; -moz-box-shadow: inset 0 1px 0 #38beb1; box-shadow: inset 0 1px 0 #38beb1
+}
+.btn-normal:focus {
+	BORDER-BOTTOM-COLOR: #148d83; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2aab9f',endColorstr='#ff22a397',GradientType=1); BACKGROUND-COLOR: #22a397; BORDER-TOP-COLOR: #148d83; BACKGROUND-REPEAT: repeat-x; COLOR: #fff; BORDER-RIGHT-COLOR: #148d83; BORDER-LEFT-COLOR: #148d83; -webkit-box-shadow: inset 0 1px 0 #38beb1; -moz-box-shadow: inset 0 1px 0 #38beb1; box-shadow: inset 0 1px 0 #38beb1
+}
+.btn-normal:active {
+	BORDER-BOTTOM-COLOR: #148d83; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2aab9f',endColorstr='#ff22a397',GradientType=1); BACKGROUND-COLOR: #22a397; BORDER-TOP-COLOR: #148d83; BACKGROUND-REPEAT: repeat-x; COLOR: #fff; BORDER-RIGHT-COLOR: #148d83; BORDER-LEFT-COLOR: #148d83; -webkit-box-shadow: inset 0 1px 0 #38beb1; -moz-box-shadow: inset 0 1px 0 #38beb1; box-shadow: inset 0 1px 0 #38beb1
+}
+.btn-normal:active {
+	-webkit-box-shadow: inset 0 1px 3px #187; -moz-box-shadow: inset 0 1px 3px #187; box-shadow: inset 0 1px 3px #187
+}
+.btn-normal:hover {
+	BORDER-BOTTOM-COLOR: #cfcfcf; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffededed',endColorstr='#ffe4e4e4',GradientType=1); BACKGROUND-COLOR: #e4e4e4; BORDER-TOP-COLOR: #cfcfcf; BACKGROUND-REPEAT: repeat-x; COLOR: #000; BORDER-RIGHT-COLOR: #cfcfcf; BORDER-LEFT-COLOR: #cfcfcf; -webkit-box-shadow: inset 0 1px 3px #fcfcfc; -moz-box-shadow: inset 0 1px 3px #fcfcfc; box-shadow: inset 0 1px 3px #fcfcfc
+}
+.btn-normal:focus {
+	BORDER-BOTTOM-COLOR: #cfcfcf; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffededed',endColorstr='#ffe4e4e4',GradientType=1); BACKGROUND-COLOR: #e4e4e4; BORDER-TOP-COLOR: #cfcfcf; BACKGROUND-REPEAT: repeat-x; COLOR: #000; BORDER-RIGHT-COLOR: #cfcfcf; BORDER-LEFT-COLOR: #cfcfcf; -webkit-box-shadow: inset 0 1px 3px #fcfcfc; -moz-box-shadow: inset 0 1px 3px #fcfcfc; box-shadow: inset 0 1px 3px #fcfcfc
+}
+.btn-normal:active {
+	BORDER-BOTTOM-COLOR: #cfcfcf; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffededed',endColorstr='#ffe4e4e4',GradientType=1); BACKGROUND-COLOR: #e4e4e4; BORDER-TOP-COLOR: #cfcfcf; BACKGROUND-REPEAT: repeat-x; COLOR: #000; BORDER-RIGHT-COLOR: #cfcfcf; BORDER-LEFT-COLOR: #cfcfcf; -webkit-box-shadow: inset 0 1px 3px #fcfcfc; -moz-box-shadow: inset 0 1px 3px #fcfcfc; box-shadow: inset 0 1px 3px #fcfcfc
+}
+.btn-normal:active {
+	-webkit-box-shadow: inset 0 1px 3px #ddd; -moz-box-shadow: inset 0 1px 3px #ddd; box-shadow: inset 0 1px 3px #ddd
+}
+.btn-hot {
+	BORDER-BOTTOM: #f08100 1px solid; TEXT-ALIGN: center; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff8900',endColorstr='#ffff900e',GradientType=1); BORDER-LEFT: #f08100 1px solid; PADDING-BOTTOM: 2px; LINE-HEIGHT: 1.5; BACKGROUND-COLOR: #ff900e; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; ZOOM: 1; DISPLAY: inline; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: 'Microsoft Yahei',Arial; LETTER-SPACING: 0.1em; COLOR: #fff; FONT-SIZE: 14px; BORDER-TOP: #f08100 1px solid; CURSOR: pointer; BORDER-RIGHT: #f08100 1px solid; TEXT-DECORATION: none; PADDING-TOP: 4px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -webkit-user-select: none; -moz-user-select: none; user-select: none; -webkit-box-shadow: inset 0 1px 0 #fea418; -moz-box-shadow: inset 0 1px 0 #fea418; box-shadow: inset 0 1px 0 #fea418
+}
+.btn-hot:hover {
+	TEXT-DECORATION: none
+}
+.btn-hot:focus {
+	TEXT-DECORATION: none
+}
+.btn-hot:active {
+	TEXT-DECORATION: none
+}
+.btn-hot:hover {
+	TEXT-DECORATION: none
+}
+.btn-hot:focus {
+	TEXT-DECORATION: none
+}
+.btn-hot:active {
+	TEXT-DECORATION: none
+}
+.btn-hot:hover {
+	BORDER-BOTTOM-COLOR: #148d83; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2aab9f',endColorstr='#ff22a397',GradientType=1); BACKGROUND-COLOR: #22a397; BORDER-TOP-COLOR: #148d83; BACKGROUND-REPEAT: repeat-x; COLOR: #fff; BORDER-RIGHT-COLOR: #148d83; BORDER-LEFT-COLOR: #148d83; -webkit-box-shadow: inset 0 1px 0 #38beb1; -moz-box-shadow: inset 0 1px 0 #38beb1; box-shadow: inset 0 1px 0 #38beb1
+}
+.btn-hot:focus {
+	BORDER-BOTTOM-COLOR: #148d83; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2aab9f',endColorstr='#ff22a397',GradientType=1); BACKGROUND-COLOR: #22a397; BORDER-TOP-COLOR: #148d83; BACKGROUND-REPEAT: repeat-x; COLOR: #fff; BORDER-RIGHT-COLOR: #148d83; BORDER-LEFT-COLOR: #148d83; -webkit-box-shadow: inset 0 1px 0 #38beb1; -moz-box-shadow: inset 0 1px 0 #38beb1; box-shadow: inset 0 1px 0 #38beb1
+}
+.btn-hot:active {
+	BORDER-BOTTOM-COLOR: #148d83; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2aab9f',endColorstr='#ff22a397',GradientType=1); BACKGROUND-COLOR: #22a397; BORDER-TOP-COLOR: #148d83; BACKGROUND-REPEAT: repeat-x; COLOR: #fff; BORDER-RIGHT-COLOR: #148d83; BORDER-LEFT-COLOR: #148d83; -webkit-box-shadow: inset 0 1px 0 #38beb1; -moz-box-shadow: inset 0 1px 0 #38beb1; box-shadow: inset 0 1px 0 #38beb1
+}
+.btn-hot:active {
+	-webkit-box-shadow: inset 0 1px 3px #187; -moz-box-shadow: inset 0 1px 3px #187; box-shadow: inset 0 1px 3px #187
+}
+.btn-hot:hover {
+	BORDER-BOTTOM-COLOR: #e57500; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff7e00',endColorstr='#fff77900',GradientType=1); BACKGROUND-COLOR: #f77900; BORDER-TOP-COLOR: #e57500; BACKGROUND-REPEAT: repeat-x; COLOR: #fff; BORDER-RIGHT-COLOR: #e57500; BORDER-LEFT-COLOR: #e57500; -webkit-box-shadow: inset 0 1px 0 #fd9516; -moz-box-shadow: inset 0 1px 0 #fd9516; box-shadow: inset 0 1px 0 #fd9516
+}
+.btn-hot:focus {
+	BORDER-BOTTOM-COLOR: #e57500; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff7e00',endColorstr='#fff77900',GradientType=1); BACKGROUND-COLOR: #f77900; BORDER-TOP-COLOR: #e57500; BACKGROUND-REPEAT: repeat-x; COLOR: #fff; BORDER-RIGHT-COLOR: #e57500; BORDER-LEFT-COLOR: #e57500; -webkit-box-shadow: inset 0 1px 0 #fd9516; -moz-box-shadow: inset 0 1px 0 #fd9516; box-shadow: inset 0 1px 0 #fd9516
+}
+.btn-hot:active {
+	BORDER-BOTTOM-COLOR: #e57500; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff7e00',endColorstr='#fff77900',GradientType=1); BACKGROUND-COLOR: #f77900; BORDER-TOP-COLOR: #e57500; BACKGROUND-REPEAT: repeat-x; COLOR: #fff; BORDER-RIGHT-COLOR: #e57500; BORDER-LEFT-COLOR: #e57500; -webkit-box-shadow: inset 0 1px 0 #fd9516; -moz-box-shadow: inset 0 1px 0 #fd9516; box-shadow: inset 0 1px 0 #fd9516
+}
+.btn-hot:active {
+	-webkit-box-shadow: inset 0 1px 3px #e60; -moz-box-shadow: inset 0 1px 3px #e60; box-shadow: inset 0 1px 3px #e60
+}
+.btn-disabled {
+	BORDER-BOTTOM-COLOR: #e7e7e7; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff9f9f9',endColorstr='#fffcfcfc',GradientType=1); BACKGROUND-COLOR: #fcfcfc; BORDER-TOP-COLOR: #e7e7e7; BACKGROUND-REPEAT: repeat-x; COLOR: #bdbdbd; BORDER-RIGHT-COLOR: #e7e7e7; BORDER-LEFT-COLOR: #e7e7e7; CURSOR: not-allowed; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none
+}
+.btn-disabled:hover {
+	BORDER-BOTTOM-COLOR: #e7e7e7; FILTER: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff9f9f9',endColorstr='#fffcfcfc',GradientType=1); BACKGROUND-COLOR: #fcfcfc; BORDER-TOP-COLOR: #e7e7e7; BACKGROUND-REPEAT: repeat-x; COLOR: #bdbdbd; BORDER-RIGHT-COLOR: #e7e7e7; BORDER-LEFT-COLOR: #e7e7e7; CURSOR: not-allowed; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none
+}
+.btn-small {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; FONT-SIZE: 12px; PADDING-TOP: 1px
+}
+.btn-large {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; FONT-SIZE: 20px; PADDING-TOP: 3px
+}
+.btn-fixed {
+	WIDTH: 100px; TEXT-OVERFLOW: ellipsis; LETTER-SPACING: 0.2em; OVERFLOW: hidden
+}
+.cf {
+	ZOOM: 1
+}
+.cf:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; OVERFLOW: hidden; CONTENT: ''
+}
+A {
+	COLOR: #399; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+.tri {
+	BORDER-BOTTOM: transparent 5px dashed; POSITION: absolute; BORDER-LEFT: transparent 5px dashed; LINE-HEIGHT: 0; WIDTH: 0px; DISPLAY: block; HEIGHT: 0px; FONT-SIZE: 0px; BORDER-TOP: transparent 5px dashed; BORDER-RIGHT: transparent 5px dashed
+}
+HTML {
+	BACKGROUND: #e8e8e8
+}
+BODY {
+	FONT: 12px/1.5 Arial,Tahoma,Helvetica,sans-serif; BACKGROUND: #f9f9f9
+}
+#hdw {
+	BORDER-BOTTOM: #3aa2a3 4px solid; BACKGROUND: #3e4141
+}
+#hd {
+	MARGIN: 0px auto; WIDTH: 960px
+}
+#hd H1 {
+	MARGIN-TOP: 6px; BACKGROUND: url(i/logo.png) no-repeat; FLOAT: left
+}
+#hd H1 A {
+	TEXT-INDENT: -9em; WIDTH: 68px; FLOAT: left; HEIGHT: 40px; OVERFLOW: hidden
+}
+#hd H1 .maoyan {
+	WIDTH: 140px
+}
+#hd H1 IMG {
+	VERTICAL-ALIGN: top
+}
+#hd P {
+	TEXT-ALIGN: right; LINE-HEIGHT: 50px; HEIGHT: 50px; COLOR: #fff; FONT-SIZE: 12px
+}
+#hd P A {
+	MARGIN-LEFT: 5px
+}
+#bd {
+	MARGIN: 10px auto; MIN-HEIGHT: 500px; WIDTH: 960px
+}
+#bd .body {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; BACKGROUND: #fafafa; BORDER-TOP: #ddd 1px solid; BORDER-RIGHT: #ddd 1px solid
+}
+#tips {
+	BORDER-BOTTOM: #fed37a 1px solid; BORDER-LEFT: #fed37a 1px solid; PADDING-BOTTOM: 9px; MARGIN: 9px 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; BACKGROUND: #fff6d2; BORDER-TOP: #fed37a 1px solid; BORDER-RIGHT: #fed37a 1px solid; PADDING-TOP: 9px
+}
+.pg-choose .main {
+	WIDTH: 100%; BACKGROUND: #fff; FLOAT: left
+}
+.pg-choose .main .seat {
+	MARGIN: 0px 2px; OUTLINE-WIDTH: 0px; WIDTH: 25px; ZOOM: 1; DISPLAY: inline-block; BACKGROUND: url(i/sp-seats.png?v=1) no-repeat; HEIGHT: 25px; VERTICAL-ALIGN: middle
+}
+.pg-choose .main .active {
+	BACKGROUND-POSITION: -25px 0px
+}
+.pg-choose .main .disabled {
+	BACKGROUND-POSITION: -50px 0px
+}
+.pg-choose .main .love {
+	BACKGROUND-POSITION: -100px 0px
+}
+.pg-choose .main .seat-info {
+	POSITION: relative; MARGIN: 20px 0px; PADDING-LEFT: 18px; FONT-SIZE: 14px
+}
+.pg-choose .main .seat-info .active:hover {
+	BACKGROUND-POSITION: -125px 0px
+}
+.pg-choose .main .seat-info .love:hover {
+	BACKGROUND-POSITION: -125px 0px
+}
+.pg-choose .main .seat-info .selected:hover {
+	BACKGROUND-POSITION: -75px 0px
+}
+.pg-choose .main .seat-info H2 {
+	TEXT-ALIGN: center; BACKGROUND: url(i/sp-seats.png?v=1) no-repeat center -52px; PADDING-TOP: 40px
+}
+.pg-choose .main .seat-info H3 {
+	TEXT-ALIGN: center; MARGIN: 10px 0px
+}
+.pg-choose .main .seat-info .seat-content {
+	BACKGROUND: url(i/line.png) repeat-y center top; PADDING-TOP: 36px; _position: relative
+}
+.pg-choose .main .seat-info .num {
+	POSITION: absolute; TEXT-ALIGN: right; LINE-HEIGHT: 22px; WIDTH: 1em; WHITE-SPACE: nowrap; COLOR: #999; LEFT: 0px; _left: -18px
+}
+.pg-choose .main .seat-info P {
+	TEXT-ALIGN: center; HEIGHT: 28px
+}
+.pg-choose .main .selected {
+	BACKGROUND-POSITION: -75px 0px
+}
+.pg-choose .main .seat-tip {
+	TEXT-ALIGN: center; LINE-HEIGHT: 25px; HEIGHT: 25px; FONT-SIZE: 14px
+}
+.pg-choose .main .seat-tip SPAN {
+	MARGIN: 0px 7px
+}
+.pg-choose .main .seat-overflow {
+	PADDING-BOTTOM: 10px; OVERFLOW-X: scroll; WIDTH: 100%
+}
+.pg-choose .main .seat-overflow .seat-content {
+	_position: static
+}
+.pg-choose .main .seat-overflow .num {
+	_left: -1.5em
+}
+.pg-choose .main .intro {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; BACKGROUND: #f1f1f1; COLOR: #999; PADDING-TOP: 15px
+}
+.pg-choose .main .intro UL {
+	MARGIN: 10px 0px 20px
+}
+.pg-choose .main .intro LI {
+	LIST-STYLE-POSITION: inside; LIST-STYLE-TYPE: disc
+}
+.pg-choose .main .intro H3 {
+	FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+.pg-choose .main-wrapper {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; BACKGROUND: #fafafa; MARGIN-RIGHT: 260px; BORDER-RIGHT: #ddd 1px solid; PADDING-TOP: 20px
+}
+.pg-choose .sidebar {
+	BORDER-LEFT: #ddd 1px solid; WIDTH: 260px; BACKGROUND: #fff; FLOAT: right; COLOR: #666; MARGIN-LEFT: -261px; OVERFLOW: hidden
+}
+.pg-choose .sidebar .t {
+	COLOR: #999; MARGIN-RIGHT: 20px
+}
+.pg-choose .sidebar .gray {
+	COLOR: #999
+}
+.pg-choose .sidebar .movie-info {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; ZOOM: 1; PADDING-TOP: 15px
+}
+.pg-choose .sidebar .movie-info LI {
+	TEXT-OVERFLOW: ellipsis; WHITE-SPACE: nowrap; OVERFLOW: hidden
+}
+.pg-choose .sidebar .movie-info P {
+	TEXT-OVERFLOW: ellipsis; WHITE-SPACE: nowrap; OVERFLOW: hidden
+}
+.pg-choose .sidebar .movie-info IMG {
+	FLOAT: left; MARGIN-RIGHT: 10px
+}
+.pg-choose .sidebar .movie-info H2 {
+	FONT-FAMILY: "Microsoft Yahei",sans-serif; MARGIN-BOTTOM: 10px; HEIGHT: 56px; COLOR: #333; FONT-SIZE: 18px; OVERFLOW: hidden
+}
+.pg-choose .sidebar .movie-info EM {
+	FONT: bold 14px/1.5 Arial; COLOR: #666
+}
+.pg-choose .sidebar .movie-info UL {
+	LINE-HEIGHT: 30px; PADDING-TOP: 20px
+}
+.pg-choose .sidebar .movie-info .show-time {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; ZOOM: 1; DISPLAY: inline-block; BORDER-TOP: #ddd 1px solid; CURSOR: pointer; BORDER-RIGHT: #ddd 1px solid; PADDING-TOP: 0px
+}
+.pg-choose .sidebar .movie-info .show-time I {
+	WIDTH: 17px; DISPLAY: inline-block; BACKGROUND: url(i/sp-seats.png?v=1) no-repeat -440px 3px; HEIGHT: 18px; MARGIN-LEFT: 9px; VERTICAL-ALIGN: baseline
+}
+.pg-choose .sidebar .choose-seat {
+	PADDING-BOTTOM: 15px; LINE-HEIGHT: 28px; MARGIN: 0px 15px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; BORDER-TOP: #eaeaea 1px solid; PADDING-TOP: 15px
+}
+.pg-choose .sidebar .choose-seat P {
+	MARGIN-BOTTOM: 4px
+}
+.pg-choose .sidebar .choose-seat .phone {
+	MARGIN: 10px 0px
+}
+.pg-choose .sidebar .choose-seat UL {
+	POSITION: relative; MARGIN: -30px -10px 10px 0px; WIDTH: 196px; DISPLAY: none; BACKGROUND: #fff; FLOAT: right; _margin-right: -30px
+}
+.pg-choose .sidebar .choose-seat LI {
+	BORDER-BOTTOM: #eee 1px dashed; TEXT-ALIGN: center; BORDER-LEFT: #eee 1px dashed; LINE-HEIGHT: 24px; MARGIN: 0px 20px 10px 0px; WIDTH: 75px; FLOAT: left; HEIGHT: 24px; COLOR: #d9d9d9; BORDER-TOP: #eee 1px dashed; BORDER-RIGHT: #eee 1px dashed
+}
+.pg-choose .sidebar .choose-seat .selected {
+	LINE-HEIGHT: 26px; BORDER-RIGHT-WIDTH: 0px; WIDTH: 77px; BACKGROUND: url(i/sp-seats.png?v=1) no-repeat -150px 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 26px; COLOR: #333; BORDER-LEFT-WIDTH: 0px
+}
+.pg-choose .sidebar .choose-seat .val {
+	LINE-HEIGHT: 30px; FONT-FAMILY: Arial; COLOR: #f80; MARGIN-LEFT: 10px; FONT-SIZE: 24px; VERTICAL-ALIGN: -3px
+}
+.pg-choose .sidebar .choose-seat .btn {
+	MARGIN-BOTTOM: 15px
+}
+.pg-choose .sidebar .choose-seat .refund {
+	LINE-HEIGHT: 130px; MARGIN: 0px auto; WIDTH: 210px; BACKGROUND: url(i/sp-seats.png?v=1) no-repeat -230px 15px; HEIGHT: 50px; OVERFLOW: hidden; BORDER-TOP: #eaeaea 1px solid; PADDING-TOP: 15px
+}
+.pg-choose .sidebar .bind-mobile {
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; MARGIN-BOTTOM: 10px; BACKGROUND: #fffbe9; PADDING-TOP: 8px
+}
+.pg-choose .sidebar .bind-mobile INPUT {
+	BORDER-BOTTOM: #eaeaea 1px solid; BORDER-LEFT: #eaeaea 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 24px; PADDING-LEFT: 5px; WIDTH: 8em; PADDING-RIGHT: 5px; MARGIN-BOTTOM: 8px; FLOAT: left; HEIGHT: 24px; BORDER-TOP: #eaeaea 1px solid; BORDER-RIGHT: #eaeaea 1px solid; PADDING-TOP: 0px; _position: relative
+}
+.pg-choose .sidebar .bind-mobile .btn {
+	PADDING-BOTTOM: 4px; MARGIN: -1px 0px 8px 5px; PADDING-LEFT: 0px; WIDTH: 8em; PADDING-RIGHT: 0px; FLOAT: left; FONT-SIZE: 12px; PADDING-TOP: 4px
+}
+.pg-choose .sidebar .bind-mobile SPAN {
+	FLOAT: left; MARGIN-LEFT: 5px
+}
+.pg-choose .sidebar .bind-mobile .msg {
+	LINE-HEIGHT: 20px; PADDING-LEFT: 20px; MARGIN-BOTTOM: 0px; BACKGROUND: url(i/sp-icon-bind-mobile.png?v=1) no-repeat 0px -20px; CLEAR: both
+}
+.pg-choose .sidebar .bind-mobile .msg-ok {
+	BACKGROUND-POSITION: 0px 0px
+}
+#show-time-tips {
+	BORDER-BOTTOM: #ccc 1px solid; POSITION: absolute; TEXT-ALIGN: center; BORDER-LEFT: #ccc 1px solid; WIDTH: 330px; DISPLAY: none; BACKGROUND: #fff; COLOR: #666; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+#show-time-tips .hd {
+	BORDER-BOTTOM: #ccc 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 24px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND: #f1f1f1; PADDING-TOP: 5px
+}
+#show-time-tips .hd LI {
+	BORDER-BOTTOM: #f1f1f1 0px solid; BORDER-LEFT: #f1f1f1 1px solid; WIDTH: 100px; FLOAT: left; BORDER-TOP: #f1f1f1 1px solid; CURSOR: pointer; MARGIN-RIGHT: 4px; BORDER-RIGHT: #f1f1f1 1px solid
+}
+#show-time-tips .hd .selected {
+	POSITION: relative; BORDER-BOTTOM-COLOR: #ccc; LINE-HEIGHT: 25px; BORDER-TOP-COLOR: #ccc; MARGIN-BOTTOM: -1px; BACKGROUND: #fff; COLOR: #3dabab; BORDER-RIGHT-COLOR: #ccc; BORDER-LEFT-COLOR: #ccc
+}
+#show-time-tips .bd {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+#show-time-tips .bd .content {
+	WIDTH: 100%; DISPLAY: none; OVERFLOW: hidden
+}
+#show-time-tips .bd .selected {
+	DISPLAY: block
+}
+#show-time-tips .bd P {
+	WIDTH: 340px
+}
+#show-time-tips .bd A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; MARGIN-BOTTOM: 5px; FLOAT: left; COLOR: #666; PADDING-TOP: 0px
+}
+#show-time-tips .bd A:hover {
+	BACKGROUND: #3dabab; COLOR: #fff; TEXT-DECORATION: none
+}
+#pay-tips {
+	BORDER-BOTTOM: #fed286 1px solid; BORDER-LEFT: #fed286 1px solid; PADDING-BOTTOM: 10px; MARGIN: 0px auto 10px; PADDING-LEFT: 30px; PADDING-RIGHT: 30px; BACKGROUND: #fff5d5; FONT-SIZE: 14px; BORDER-TOP: #fed286 1px solid; BORDER-RIGHT: #fed286 1px solid; PADDING-TOP: 10px; border-radius: 5px
+}
+#pay-tips H3 {
+	FONT-SIZE: 18px
+}
+#pay-tips UL {
+	MARGIN: 10px 0px 0px 20px; FONT-SIZE: 14px
+}
+#pay-tips LI {
+	LIST-STYLE-POSITION: outside; LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 5px
+}
+.pg-pay {
+	PADDING-BOTTOM: 30px; LINE-HEIGHT: 28px; PADDING-LEFT: 30px; PADDING-RIGHT: 30px; FONT-SIZE: 14px; PADDING-TOP: 30px
+}
+.pg-pay H2 {
+	LINE-HEIGHT: 50px; PADDING-LEFT: 70px; FONT-FAMILY: 'Microsoft Yahei' Arial; BACKGROUND: url(i/sp-icon.png) no-repeat 0px -270px; HEIGHT: 50px; COLOR: #333; FONT-SIZE: 24px
+}
+.pg-pay .intro {
+	LINE-HEIGHT: 16px; PADDING-LEFT: 70px; COLOR: #808080; FONT-SIZE: 12px
+}
+.pg-pay .detail {
+	BORDER-BOTTOM: #ddd 1px dotted; PADDING-BOTTOM: 15px; MARGIN: 20px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: #ddd 1px dotted; PADDING-TOP: 15px
+}
+.pg-pay .detail .t {
+	COLOR: #999; MARGIN-RIGHT: 0.5em
+}
+.pg-pay .detail .tips {
+	PADDING-BOTTOM: 10px; LINE-HEIGHT: 18px; MARGIN-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: #f7f7f7; COLOR: #999; FONT-SIZE: 12px; PADDING-TOP: 10px
+}
+.pg-pay .total STRONG {
+	COLOR: #f80
+}
+.pg-pay .pay-list {
+	PADDING-BOTTOM: 12px; MARGIN: 12px 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 210px; BACKGROUND: #f7f7f7; PADDING-TOP: 12px
+}
+.pg-pay .pay-list H3 {
+	PADDING-BOTTOM: 9px; CURSOR: pointer
+}
+.pg-pay .pay-list H3 I {
+	MARGIN: 12px 0.5em 0px 0px; WIDTH: 9px; BACKGROUND: url(i/sp-fold-icon.png) no-repeat; FLOAT: left; HEIGHT: 5px; OVERFLOW: hidden
+}
+.pg-pay .pay-list H3 .selected {
+	BACKGROUND-POSITION: 0px -10px
+}
+.pg-pay .pay-list LI {
+	MARGIN: 0px 30px 15px 0px; FLOAT: left
+}
+.pg-pay .pay-list LABEL {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; TEXT-INDENT: -9em; WIDTH: 145px; ZOOM: 1; DISPLAY: inline-block; BACKGROUND: url(i/sp-banklist.png) no-repeat; HEIGHT: 32px; MARGIN-LEFT: 5px; VERTICAL-ALIGN: middle; OVERFLOW: hidden; BORDER-TOP: #ddd 1px solid; BORDER-RIGHT: #ddd 1px solid
+}
+.pg-pay .pay-list .alipay {
+	BACKGROUND-POSITION: 0px -1017px; HEIGHT: 40px
+}
+.pg-pay .pay-list .maintain {
+	PADDING-LEFT: 139px; BACKGROUND-POSITION: 19px -1017px; COLOR: red
+}
+.pg-pay .pay-list .tenpay {
+	BACKGROUND-POSITION: 0px -1059px; HEIGHT: 40px
+}
+.pg-pay .pay-list .chinabank {
+	BACKGROUND-POSITION: 0px -1097px
+}
+.pg-pay .pay-list .icbc {
+	BACKGROUND-POSITION: 0px -377px
+}
+.pg-pay .pay-list .icbcb2b {
+	BACKGROUND-POSITION: 0px -756px
+}
+.pg-pay .pay-list .cmb {
+	BACKGROUND-POSITION: 0px -417px
+}
+.pg-pay .pay-list .cmbb2b {
+	BACKGROUND-POSITION: 0px -837px
+}
+.pg-pay .pay-list .ccb {
+	BACKGROUND-POSITION: 0px -57px
+}
+.pg-pay .pay-list .abc {
+	BACKGROUND-POSITION: 0px -17px
+}
+.pg-pay .pay-list .spdb {
+	BACKGROUND-POSITION: 0px -337px
+}
+.pg-pay .pay-list .sdb {
+	BACKGROUND-POSITION: 0px -297px
+}
+.pg-pay .pay-list .cib {
+	BACKGROUND-POSITION: 0px -457px
+}
+.pg-pay .pay-list .ceb {
+	BACKGROUND-POSITION: 0px -97px
+}
+.pg-pay .pay-list .comm {
+	BACKGROUND-POSITION: 0px -179px
+}
+.pg-pay .pay-list .cmbc {
+	BACKGROUND-POSITION: 0px -137px
+}
+.pg-pay .pay-list .bjbank {
+	BACKGROUND-POSITION: 0px -585px
+}
+.pg-pay .pay-list .udpay {
+	BACKGROUND-POSITION: 0px -720px
+}
+.pg-pay .pay-list .gzupay {
+	BACKGROUND-POSITION: 0px -677px
+}
+.pg-pay .pay-list .citic {
+	BACKGROUND-POSITION: 0px -257px
+}
+.pg-pay .pay-list .gdb {
+	BACKGROUND-POSITION: 0px -217px
+}
+.pg-pay .pay-list .pingan {
+	BACKGROUND-POSITION: 0px -872px
+}
+.pg-pay .pay-list .boc {
+	BACKGROUND-POSITION: 0px -910px
+}
+.pg-pay .pay-list .psbc {
+	BACKGROUND-POSITION: 0px -497px
+}
+.pg-pay .pay-list .cib_1009 {
+	BACKGROUND-POSITION: 0px -952px
+}
+.pg-pay .pay-list .cib_1059 {
+	BACKGROUND-POSITION: 0px -987px
+}
+.pg-pay .pay-list .cmpay {
+	BACKGROUND-POSITION: 0px -1137px
+}
+.pg-pay .pay-list .lakala {
+	BACKGROUND-POSITION: 5px -1174px
+}
+.pg-pay .pay-list .bjrcb {
+	BACKGROUND-POSITION: 0px -1220px
+}
+.pg-pay .pay-list .hzbank {
+	BACKGROUND-POSITION: 0px -1259px
+}
+.pg-pay .pay-list .srcb {
+	BACKGROUND-POSITION: 0px -1299px
+}
+.pg-pay .pay-handle {
+	TEXT-ALIGN: right
+}
+.pg-pay .pay-handle .pay-amount EM {
+	FONT-FAMILY: Arial; COLOR: #f50; FONT-SIZE: 22px
+}
+.pg-pay .pay-handle .btn {
+	MARGIN: 6px 0px
+}
+.pg-pay .pay-handle .refund {
+	TEXT-ALIGN: left; LINE-HEIGHT: 16px; FLOAT: left; COLOR: #999; FONT-SIZE: 12px
+}
+.pg-status {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 75px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 75px
+}
+.pg-status .content {
+	TEXT-ALIGN: left; WIDTH: 630px; ZOOM: 1; DISPLAY: inline; HEIGHT: auto; COLOR: #999
+}
+.pg-status .content H2 {
+	LINE-HEIGHT: 50px; PADDING-LEFT: 70px; MARGIN-BOTTOM: 30px; BACKGROUND: url(i/sp-icon.png) no-repeat 0px -35px; HEIGHT: 50px; COLOR: #333; FONT-SIZE: 28px
+}
+.pg-status .content .btn {
+	MARGIN: 20px 0px
+}
+.pg-status .content .ticket {
+	WIDTH: 630px; DISPLAY: block; FONT: 16px "Microsoft Yahei" Arial; BACKGROUND: url(i/maoyanpiao.jpg) no-repeat; HEIGHT: 210px; COLOR: #000; background-size: 630 210
+}
+.pg-status .content .ticket .left {
+	PADDING-LEFT: 20px; WIDTH: 380px; DISPLAY: block; FLOAT: left
+}
+.pg-status .content .ticket .right {
+	WIDTH: 130px; DISPLAY: block; FLOAT: left
+}
+.pg-status .content .ticket .white {
+	PADDING-BOTTOM: 12px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; COLOR: #fff; PADDING-TOP: 12px
+}
+.pg-status .content .ticket .black {
+	PADDING-BOTTOM: 8px; MIN-HEIGHT: 27px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; FLOAT: left; COLOR: #000; FONT-SIZE: 16px; PADDING-TOP: 8px
+}
+.pg-status .content .ticket .black SPAN {
+	WIDTH: 50%; FLOAT: left
+}
+.pg-status .content .ticket .up {
+	LINE-HEIGHT: 18px; WIDTH: 100%; DISPLAY: block; FLOAT: left; COLOR: #999; FONT-SIZE: 12px
+}
+.pg-status .content .ticket .down {
+	LINE-HEIGHT: 15px; WIDTH: 100%; DISPLAY: block; FLOAT: left; COLOR: #333; FONT-SIZE: 14px
+}
+.pg-status .content .notice {
+	PADDING-LEFT: 20px
+}
+.pg-status .success {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 120px; BACKGROUND: url(i/maoyantai.png) no-repeat right top; PADDING-TOP: 25px
+}
+.pg-status .error H2 {
+	BACKGROUND-POSITION: 0px -90px
+}
+.pg-status .error .val {
+	COLOR: #f80; FONT-WEIGHT: bold
+}
+.pg-status .wait H2 {
+	BACKGROUND-POSITION: 0px -145px
+}
+#ftw {
+	PADDING-BOTTOM: 30px; MARGIN-TOP: 50px; BACKGROUND: #e8e8e8; BORDER-TOP: #3aa2a2 3px solid; _height: 100px
+}
+#ft {
+	MARGIN: 0px auto; WIDTH: 960px; CLEAR: both
+}
+#ft .service {
+	TEXT-ALIGN: center; WIDTH: 176px; PADDING-RIGHT: 25px; FONT-FAMILY: 'Microsoft Yahei',Helvetica,arial,sans-serif; COLOR: #666; BORDER-RIGHT-COLOR: #a5a5a5
+}
+#ft .service .hotline {
+	MARGIN: 0px auto 10px; WIDTH: 64px; DISPLAY: block; BACKGROUND: url(i/sp-ft.png) no-repeat -580px 0px; HEIGHT: 50px
+}
+#ft .service .desc {
+	FONT-SIZE: 14px
+}
+#ft .service .num {
+	FONT: 20px/32px Helvetica,arial; COLOR: #555
+}
+#ft .service .time {
+	FONT-SIZE: 12px
+}
+#ft .ftbox {
+	BORDER-LEFT: #a5a5a5 1px dotted; PADDING-BOTTOM: 20px; PADDING-LEFT: 25px; WIDTH: 156px; PADDING-RIGHT: 0px; FLOAT: left; HEIGHT: 140px; BORDER-RIGHT: #f7f7f7 1px dotted; PADDING-TOP: 20px
+}
+#ft .ftbox H3 {
+	MARGIN-BOTTOM: 8px; COLOR: #3e4545
+}
+#ft .ftbox UL {
+	PADDING-LEFT: 16px
+}
+#ft .ftbox LI {
+	LIST-STYLE-POSITION: outside; LINE-HEIGHT: 1.8; LIST-STYLE-TYPE: disc; COLOR: #666; FONT-SIZE: 12px
+}
+#ft .ftbox A {
+	COLOR: #3e4545
+}
+#ft .ftbox .revEmail {
+	unicode-bidi: bidi-override; DIRECTION: rtl
+}
+#ft .copyright {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #6f6f6f; CLEAR: both; FONT-SIZE: 12px; PADDING-TOP: 30px
+}
+#ft .copyright A {
+	COLOR: #6f6f6f
+}
+#ft .cert {
+	TEXT-ALIGN: center; MARGIN: 10px auto; FONT-SIZE: 0px
+}
+#ft .cert__item {
+	MARGIN: 0px 5px; ZOOM: 1; DISPLAY: inline; BACKGROUND: url(i/sp-ft.png) no-repeat; HEIGHT: 40px; VERTICAL-ALIGN: top
+}
+#ft .cert__item A {
+	TEXT-INDENT: -9999px; MARGIN: 0px; OUTLINE-WIDTH: 0px; DISPLAY: block; HEIGHT: 40px
+}
+#ft .cert__item--record {
+	WIDTH: 111px
+}
+#ft .cert__item--alipay {
+	WIDTH: 123px; BACKGROUND-POSITION: -240px 0px
+}
+#ft .cert__item--tenpay {
+	WIDTH: 87px; BACKGROUND-POSITION: -370px 0px
+}
+#ft .cert__item--knet {
+	WIDTH: 114px; BACKGROUND-POSITION: -460px 0px
+}
+#mask {
+	Z-INDEX: 990; POSITION: fixed; FILTER: Alpha(opacity=40); WIDTH: 100%; BACKGROUND: #000; HEIGHT: 100%; TOP: 0px; LEFT: 0px; _position: absolute; opacity: .4
+}
+#popup {
+	Z-INDEX: 999; BORDER-BOTTOM: #555 5px solid; POSITION: fixed; BORDER-LEFT: #555 5px solid; WIDTH: 450px; BACKGROUND: #fff; BORDER-TOP: #555 5px solid; TOP: 0px; BORDER-RIGHT: #555 5px solid; LEFT: 0px; box-shadow: 0 0 5px 5px rgba(20,20,20,0.3); _position: absolute
+}
+#popup .hd {
+	BORDER-BOTTOM: #c0dad9 1px solid; BACKGROUND: #eefbf9; HEIGHT: 40px
+}
+#popup .hd H2 {
+	LINE-HEIGHT: 40px; PADDING-LEFT: 20px; FONT-SIZE: 14px
+}
+#popup .bd {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 25px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 25px
+}
+#popup .bd H2 {
+	LINE-HEIGHT: 32px; MARGIN: 0px 20px; PADDING-LEFT: 40px; ZOOM: 1; DISPLAY: inline; BACKGROUND: url(i/sp-icon.png) no-repeat 0px -200px; FONT-SIZE: 18px
+}
+#popup .bd .btn {
+	MARGIN: 20px 10px 0px
+}
+#popup .pay {
+	TEXT-ALIGN: left; PADDING-LEFT: 66px; BACKGROUND: url(i/sp-icon.png) no-repeat 0px -270px; MARGIN-LEFT: 30px
+}
+#popup .pay H2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: 0px 50%; PADDING-TOP: 0px
+}
+#popup .pay .btn {
+	MARGIN: 20px 20px 10px 0px
+}
+#popup A.close-popup {
+	MARGIN: 10px 10px 0px 0px; WIDTH: 12px; BACKGROUND: url(i/sp-seats.png?v=1) no-repeat right 0px; FLOAT: right; HEIGHT: 12px
+}
+#tooltip {
+	BORDER-BOTTOM: #c8c8c8 2px solid; POSITION: absolute; TEXT-ALIGN: center; BORDER-LEFT: #c8c8c8 2px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; WIDTH: 120px; PADDING-RIGHT: 8px; BACKGROUND: #fcfcfc; COLOR: #666; BORDER-TOP: #c8c8c8 2px solid; TOP: 200px; BORDER-RIGHT: #c8c8c8 2px solid; PADDING-TOP: 8px; LEFT: 200px
+}
+#tooltip .tri {
+	BOTTOM: -10px; BORDER-TOP: #c8c8c8 5px solid; LEFT: 63px
+}
+#tooltip S.tri {
+	BORDER-TOP-COLOR: #fff; BOTTOM: -7px
+}

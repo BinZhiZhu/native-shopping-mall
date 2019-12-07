@@ -1,0 +1,33 @@
+.reco-slides .mt-slider-sheet {
+	POSITION: absolute; OVERFLOW: hidden; _zoom: 1
+}
+.reco-slides__tips {
+	POSITION: absolute; DISPLAY: block !important; TOP: 0px; LEFT: 0px
+}
+.reco-slides__switch {
+	POSITION: absolute; DISPLAY: block !important; TOP: 0px; LEFT: 0px
+}
+.reco-slides__roll {
+	Z-INDEX: 2; POSITION: absolute; CURSOR: pointer
+}
+.reco-slides__roll--blacksquare {
+	WIDTH: 42px; BACKGROUND: url(http://s1.meituan.net/www/css/i/sp-main-new-24.png?v=8) no-repeat -248px 0px; HEIGHT: 50px; _background-image: url(http://s1.meituan.net/www/css/i/sp-main-new.png?v=8)
+}
+.reco-slides__roll--blacksquare--previous {
+	BACKGROUND-POSITION: -205px 0px
+}
+.reco-slides__roll--greyrect {
+	WIDTH: 28px; BACKGROUND: url(http://s1.meituan.net/www/css/i/sp-main-new-24.png?v=8) no-repeat -327px 0px; HEIGHT: 72px; _background-image: url(http://s1.meituan.net/www/css/i/sp-main-new.png?v=8)
+}
+.reco-slides__roll--greyrect--previous {
+	BACKGROUND-POSITION: -298px 0px
+}
+.reco-slides__roll:hover {
+	opacity: 1; _filter: alpha(opacity=90)
+}
+.reco-slides__roll--greyrect:hover {
+	BACKGROUND-POSITION: -327px -73px
+}
+.reco-slides__roll--greyrect--previous:hover {
+	BACKGROUND-POSITION: -298px -73px
+}
