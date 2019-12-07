@@ -6,12 +6,17 @@ include_once '../lib/fun.php';
 $Id = $_REQUEST['Id'];
 
 if(empty($_REQUEST['submit'])){
-    
+
+    //关联到商家
+    session_start();
+    $user = $_SESSION['user'][0];
+    $userId = intval($user['Id']);
+
     $sql = "select * from t_goods where Id = $Id";
 
     $data = exeRead($sql);
-    
-    $sql = " select * from t_fenlei  ";
+
+    $sql = " select * from t_fenlei where mid = $userId ";
     
     $fenleidata = exeRead($sql);
     

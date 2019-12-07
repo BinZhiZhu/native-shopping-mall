@@ -4,8 +4,13 @@ header('content-type:text/html;charset=utf-8');
 include_once '../lib/fun.php';
 
 if(empty($_REQUEST['submit'])){
-   
-    $sql = " select * from t_fenlei  ";
+
+    //关联到商家
+    session_start();
+    $user = $_SESSION['user'][0];
+    $userId = intval($user['Id']);
+
+    $sql = " select * from t_fenlei where mid =$userId ";
     
     $fenleidata = exeRead($sql);
     

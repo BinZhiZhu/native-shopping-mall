@@ -60,8 +60,8 @@ if(!empty($_REQUEST['submit'])){
     $username = $userData[0]["username"];
     
     $uuname = $userData[0]["name"];
-    
-    
+
+
     $sql = "insert into t_orders(ordersid,userid,username,address,tel,remark,ctime,status,name,payway) values
     ('$ordersid','$userid','$username','$address','$tel','$remark','$ctime','未发货','$name','$payway')";
     
@@ -103,7 +103,6 @@ if(!empty($_REQUEST['submit'])){
         exeWrite($sql);
 
         //补充商家ID，应该是去查商家关联的mid
-
         $gsql = "SELECT * FROM t_goods where Id=$goodsid ";
         $rs = exeRead($gsql);
 //        print_r($rs);exit;

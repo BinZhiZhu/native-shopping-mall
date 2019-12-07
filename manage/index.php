@@ -92,18 +92,6 @@ if (!checkLogin()) {
                                                 <li id="now11"><a href="goodslist.php"
                                                                   target="content3"><span>商品管理</span></a></li>
 
-                                                <li id="now11"><a href="orderslist.php"
-                                                                  target="content3"><span>待发货订单</span></a>
-                                                </li>
-
-
-                                                <li id="now11"><a href="orderslist3.php"
-                                                                  target="content3"><span>待退货订单</span></a>
-                                                </li>
-
-                                                <li id="now11"><a href="orderslist2.php"
-                                                                  target="content3"><span>订单查询</span></a>
-                                                </li>
                                                 <li id="now11"><a href="pingjialist.php"
                                                                   target="content3"><span>商品评价管理</span></a>
                                                 </li>
@@ -118,11 +106,22 @@ if (!checkLogin()) {
                                                 <li id="now11"><a href="password.php"
                                                                   target="content3"><span>修改密码</span></a></li>
                                                 <li id="now11"><a href="loginout.php"><span>退出系统</span></a></li>
-
                                                 <li id="now11"><a href="userlist.php"
                                                                   target="content3"><span>用户管理</span></a></li>
-                                                <li id="now11"><a href="userlist.php"
+                                                <li id="now11"><a href="merch_list.php"
                                                                   target="content3"><span>商家管理</span></a></li>
+                                                <li id="now11"><a href="orderslist.php"
+                                                                  target="content3"><span>待发货订单</span></a>
+                                                </li>
+
+
+                                                <li id="now11"><a href="orderslist3.php"
+                                                                  target="content3"><span>待退货订单</span></a>
+                                                </li>
+
+                                                <li id="now11"><a href="orderslist2.php"
+                                                                  target="content3"><span>订单查询</span></a>
+                                                </li>
                                             <?php }
                                             ?>
                                         </ul>
