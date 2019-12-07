@@ -4,6 +4,13 @@ header('content-type:text/html;charset=utf-8');
 include_once '../lib/fun.php';
 
 session_start();
+//关联到商家
+$userID = $_SESSION['user'][0]['Id'];
+
+$sql = " select * from t_user where Id='$userID'";
+
+$data = exeRead($sql);
+$user = $data[0];
 if (!checkLogin()) {
     echo "<script language=javascript>alert('请先登录');window.location.href='login.php';</script>";
     exit;
@@ -35,8 +42,8 @@ if (!checkLogin()) {
             <th>
 
                 <a style="color: #16547E">
-                    用户 ：<?php echo $_SESSION['user'][0]['username']; ?></a>&nbsp;&nbsp; <a style="color: #16547E">
-                    身份 ：<?php echo $_SESSION['user'][0]['name']; ?></a>&nbsp;&nbsp;
+                    用户 ：<?php echo $user['username']; ?></a>&nbsp;&nbsp; <a style="color: #16547E">
+                    身份 ：<?php echo $user['name']; ?></a>&nbsp;&nbsp;
 
             </th>
         </tr>
@@ -86,6 +93,8 @@ if (!checkLogin()) {
                                                 <li id="now11"><a href="password.php"
                                                                   target="content3"><span>修改密码</span></a></li>
                                                 <li id="now11"><a href="loginout.php"><span>退出系统</span></a></li>
+                                                <li id="now11"><a href="merch_info.php"
+                                                                  target="content3"><span>我的信息</span></a></li>
                                                 <li id="now11"><a href="fenleilist.php"
                                                                   target="content3"><span>商品分类管理</span></a>
                                                 </li>
