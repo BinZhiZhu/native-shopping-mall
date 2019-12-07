@@ -7,7 +7,15 @@ if(!empty($_REQUEST['submit']))
 {
     $username = trim($_REQUEST['username']);//获取用户名
     $password = trim($_REQUEST['password']);//获取密码
-    
+    $verifycode = $_REQUEST['verifycode'];
+
+    session_start();
+    //检验验证码咯
+    if (trim($verifycode) !== trim($_SESSION['verifycode'])) {
+        echo "<script language=javascript>alert('验证码错误');window.location.href='login.php';</script>";
+        exit;
+    }
+
     //判断用户名不能为空
     if(!$username)
     {
@@ -114,10 +122,26 @@ body {
         <td height="35" class="login-text02">密　码：<br /></td>
         <td><input name="password" type="password" style="width: 150px;" /></td>
       </tr>
-       
-       
-      
-      <tr>
+        <tr>
+            <td height="35" class="login-text02">验证码：<br/></td>
+            <td>
+                <input type="text" placeholder="验证码" style="width: 150px;" name="verifycode" class="captcha">
+            </td>
+        </tr>
+        <tr>
+            <td height="35" class="login-text02"><br/></td>
+            <td>
+                <div style="display: flex;align-items: center">
+                    <img id="captcha_img" src="/lib/captcha.php?r=<?php echo rand(); ?>" alt="验证码">
+                    <a href="javascript:void(0)" rel="external nofollow"
+                       style="text-decoration: none;padding-left: 10px;font-size: 12px"
+                       onclick="document.getElementById('captcha_img').src='/lib/captcha.php?r='+Math.random()">换一个</a>
+                </div>
+            </td>
+        </tr>
+
+
+        <tr>
         <td height="35">&nbsp;</td>
         <td>
         	<input name="Submit2" id='submitid'  type="submit" class="right-button01" value="&nbsp;&nbsp;登&nbsp;&nbsp;录&nbsp;&nbsp;"  />
