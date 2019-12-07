@@ -6,8 +6,13 @@ include_once '../lib/fun.php';
 if(!empty($_REQUEST['submit'])){
     
     $fname = $_REQUEST['fname'];
-    
-    $sql = "insert into t_fenlei(fname) values('$fname')";
+
+    //关联到商家
+    session_start();
+    $user = $_SESSION['user'][0];
+    $userId = intval($user['Id']);
+
+    $sql = "insert into t_fenlei(fname,mid) values('$fname','$userId')";
     
     if(exeWrite($sql)){
         

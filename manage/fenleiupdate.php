@@ -16,8 +16,13 @@ if(empty($_REQUEST['submit'])){
 if(!empty($_REQUEST['submit'])){
     
     $fname = $_REQUEST['fname'];
-    
-    $sql = "update t_fenlei set fname ='$fname' where Id=$Id";
+
+    //关联到商家
+    session_start();
+    $user = $_SESSION['user'][0];
+    $userId = intval($user['Id']);
+
+    $sql = "update t_fenlei set fname ='$fname', mid='$userId' where Id=$Id";
     
     if(exeWrite($sql)){
         

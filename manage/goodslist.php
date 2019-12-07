@@ -9,6 +9,10 @@ $fname = !empty($_REQUEST['fname'])?$_REQUEST['fname']:'';
 
 $pname = !empty($_REQUEST['pname'])?$_REQUEST['pname']:'';
 
+//关联到商家
+session_start();
+$user = $_SESSION['user'][0];
+$userId = intval($user['Id']);
 
 
 //组装查询条件
@@ -28,6 +32,9 @@ if(!empty($_REQUEST['pname'])){
     $url = $url."&pname=".$pname;
 }
 
+//补充关联到商家的sql
+$where = $where . " mid='$userId' and ";
+
 $where = $where." 1=1  ";
 
 //获取并检查当前页pagenum参数
@@ -42,6 +49,7 @@ $offset = ($pagenum - 1) * $pageSize;
 //查询数据列表信息
 $sql = " select * from t_goods  $where order by id desc limit {$offset},{$pageSize}";
 
+//print_r($sql);exit;
 $dataArray = exeRead($sql);
 
 

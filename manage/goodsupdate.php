@@ -53,11 +53,15 @@ if(!empty($_REQUEST['submit'])){
     $data = exeRead($sql);
     
     $fname = $data[0]["fname"];
-    
- 
+
+    //关联到商家
+    session_start();
+    $user = $_SESSION['user'][0];
+    $userId = intval($user['Id']);
+
     
     $sql = " update t_goods set fenleiid=$fenleiid,fname='$fname',pname='$pname',pic='$pic',price='$price',
-    xiangqing='$xiangqing' where id=$Id";
+    xiangqing='$xiangqing', mid='$userId' where id=$Id";
     
     if(exeWrite($sql)){
         

@@ -40,9 +40,14 @@ if(!empty($_REQUEST['submit'])){
     date_default_timezone_set('Asia/Shanghai');
     
     $ctime = @date('Y-m-d');
-    
-    $sql = " insert into t_goods(fenleiid,fname,pname,pic,price,xiangqing,tuijian,buys,vist,ctime) values
-          ($fenleiid,'$fname','$pname','$pic',$price,'$xiangqing','未推荐',0,0,'$ctime')";
+
+    //关联到商家
+    session_start();
+    $user = $_SESSION['user'][0];
+    $userId = intval($user['Id']);
+
+    $sql = " insert into t_goods(fenleiid,fname,pname,pic,price,xiangqing,tuijian,buys,vist,ctime,mid) values
+          ($fenleiid,'$fname','$pname','$pic',$price,'$xiangqing','未推荐',0,0,'$ctime','$userId')";
     
     if(exeWrite($sql)){
         

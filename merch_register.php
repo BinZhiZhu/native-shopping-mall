@@ -8,7 +8,7 @@ if (!empty($_REQUEST['submit'])) {
 
     $username = $_REQUEST['username'];
     $password = $_REQUEST['password'];
-
+    $name = '商家';
     $sql = " select count(Id) as total from t_user where username='$username' ";
 
     $userdata = exeRead($sql);

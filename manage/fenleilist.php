@@ -7,7 +7,10 @@ $url ="fenleilist.php?1=1";
 
 $fname = !empty($_REQUEST['fname'])?$_REQUEST['fname']:'';
 
-
+//关联到商家
+session_start();
+$user = $_SESSION['user'][0];
+$userId = intval($user['Id']);
 
 //组装查询条件
 $where  = " where ";
@@ -17,7 +20,11 @@ if(!empty($_REQUEST['fname'])){
     $where = $where." fname like '%$fname%' and ";
     
     $url = $url."&fname=".$fname;
-}    
+}
+
+//补充关联到商家的sql
+$where = $where . " mid='$userId' and ";
+
 $where = $where." 1=1  ";
 
 //获取并检查当前页pagenum参数
