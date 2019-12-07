@@ -32,7 +32,8 @@ if(!empty($_REQUEST['submit']))
     }
     
     //sql查询语句，查询用户名和密码在数据库中是否存在
-    $sql = "select * from t_user where username='$username' and password='$password' and role=1 LIMIT 1";
+    // 这里兼容到商家登录 默认角色是3
+    $sql = "select * from t_user where username='$username' and password='$password' and role in (1,3) LIMIT 1";
     
    
     $data = exeRead($sql);
