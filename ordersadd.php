@@ -101,10 +101,17 @@ if(!empty($_REQUEST['submit'])){
         $sql = " update t_goods set buys= buys+$shuliang where  Id = $goodsid";
         
         exeWrite($sql);
-        
+
+        //补充商家ID，应该是去查商家关联的mid
+
+        $gsql = "SELECT * FROM t_goods where Id=$goodsid ";
+        $rs = exeRead($gsql);
+//        print_r($rs);exit;
+        $mid = intval($rs[0]['mid']);
+
         //生成评价记录
-        $sql = "insert into t_pingjia(ordersid,goodsid,shuliang,price,userid,username,name,goodsname,status) values 
-            ($ordersId,$goodsid,$shuliang,$price,$userid,'$username','$uuname','$goodsname','未评价')";
+        $sql = "insert into t_pingjia(ordersid,goodsid,shuliang,price,userid,username,name,goodsname,status,mid) values 
+            ($ordersId,$goodsid,$shuliang,$price,$userid,'$username','$uuname','$goodsname','未评价','$mid')";
         
         exeWrite($sql);
         

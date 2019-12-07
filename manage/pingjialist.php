@@ -14,6 +14,11 @@ $pleixing = !empty($_REQUEST['pleixing'])?$_REQUEST['pleixing']:'';
 //组装查询条件
 $where  = " where ";
 
+//关联到商家
+session_start();
+$user = $_SESSION['user'][0];
+$userId = intval($user['Id']);
+
 
 if(!empty($_REQUEST['pleixing'])){
 
@@ -36,6 +41,8 @@ if(!empty($_REQUEST['username'])){
     $url = $url."&username=".$username;
 }
 
+
+$where = $where . " mid=$userId and ";
 $where = $where." status='已评价'  ";
 
 //获取并检查当前页pagenum参数
@@ -48,8 +55,10 @@ $pageSize = 10;
 $offset = ($pagenum - 1) * $pageSize;
 
 //查询数据列表信息
+//这里要查对应商家的
 $sql = " select * from t_pingjia  $where order by id desc limit {$offset},{$pageSize}";
 
+//print_r($sql);exit;
 $dataArray = exeRead($sql);
 
 
