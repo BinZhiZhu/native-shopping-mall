@@ -13,10 +13,9 @@ if (!isset($_SESSION['buys']) || empty($_SESSION['buys'])) {
 
 $userid = $_SESSION['buys'][0]['Id'];
 
-$sql = " select * from t_cart AS c LEFT JOIN  t_goods AS g ON c.goodsid = g.id where userid=$userid ";
+$sql = " select c.*,g.pic from t_cart AS c LEFT JOIN  t_goods AS g ON c.goodsid = g.id where userid=$userid ";
 
 $cartlist = exeRead($sql);
-
 
 ?>
 
